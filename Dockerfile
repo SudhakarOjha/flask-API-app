@@ -1,8 +1,8 @@
-FROM Ububtu:14.04
+FROM Ububtu:latest
 
 RUN apt install pyhton3 -y
 
-Run pip install -r requirments.txt -y
+Run pip install -r requirments.txt 
 
 Copy flask-API-app.py /root/flask
 
